@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Flutter Tutorial",
+      title: "Taskoo App",
       theme: ThemeData(primarySwatch: Colors.orange),
       debugShowCheckedModeBanner: false,
       home: OnboardingScreen(),
