@@ -103,12 +103,12 @@ class _TaskooState extends State<Taskoo> {
                               addTask();
                             }
                           },
-                          child: Text(
-                            "Add",
-                            style: TextStyle(color: Colors.white),
-                          ),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.orangeAccent,
+                          ),
+                          child: const Text(
+                            "Add",
+                            style: TextStyle(color: Colors.black),
                           ),
                         ),
                       ],
@@ -143,7 +143,7 @@ class _TaskooState extends State<Taskoo> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(
-                  width: 250,
+                  width: 220,
                   child: Text(
                     tasks['title'], // Value
                     style: const TextStyle(
@@ -156,7 +156,7 @@ class _TaskooState extends State<Taskoo> {
                   height: 10,
                 ),
                 SizedBox(
-                  width: 250,
+                  width: 220,
                   child: Text(
                     tasks['desc'], // Value
                     style: const TextStyle(fontSize: 16.0),
